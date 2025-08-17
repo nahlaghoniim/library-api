@@ -23,3 +23,6 @@ library-api/
 ├── tests/ # Unit and feature tests
 ├── docs/ # Documentation files (ERD, diagrams)
 └── README.md # Project documentation
+
+## ERD
+![Database ERD](docs/erd.png)
