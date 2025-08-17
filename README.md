@@ -1,38 +1,25 @@
-📚 Library Management System
-🔹 Overview
+# 📚 Library API
 
-A full-featured Library Management System built with Laravel, designed for both Admins and Members.
-It supports book management, borrowing/returning, categories, authors, and reviews with role-based access control.
+This is a RESTful **Library Management API** built with **Laravel**.  
+It provides endpoints for managing books, authors, and borrowing records, with authentication and secure access.
 
-✨ Features
+---
 
-👨‍💻 Admin Panel: Manage books, categories, and authors.
+## 🚀 Features
+- User Authentication (JWT)
+- Manage Books (CRUD)
+- Manage Authors (CRUD)
+- Borrow & Return Books
+- API Documentation with Swagger/Postman
+- PostgreSQL Database
 
-📖 Member Access: Browse books, borrow and return copies.
+---
 
-🔐 Role-based authentication (Admin & Member).
-
-📊 Borrow records and availability tracking.
-
-🌐 RESTful API endpoints for external integrations.
-
-📝 Reviews system for members to rate and review books.
-
-🔹 Tech Stack
-
-Backend: Laravel 10, PHP 8+
-
-Database: MySQL / PostgreSQL
-
-Frontend: Blade (Bootstrap 5)
-
-Authentication: Laravel Breeze
-
-API Security: Laravel Sanctum
-
-Testing: PHPUnit / Pest
-
-🔹 Database ERD
-
-
-![Database ERD](docs/erd.png)
+## 🗂 Project Structure
+library-api/
+├── app/ # Core application code
+├── database/ # Migrations & seeders
+├── routes/ # API routes
+├── tests/ # Unit and feature tests
+├── docs/ # Documentation files (ERD, diagrams)
+└── README.md # Project documentation
